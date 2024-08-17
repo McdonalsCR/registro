@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Fondo blanco para mayor contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    overflow: hidden; /* Evita el desplazamiento de la página */
+}
+
+.login-container {
+    background-color: #FFC72C; /* Color amarillo de McDonald's */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+.login-container h1 {
+    color: #DA291C; /* Color rojo de McDonald's */
+    margin-bottom: 20px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DA291C;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #DA291C;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #B21E1A;
+}
+
+.message {
+    color: #DA291C; /* Color rojo de McDonald's */
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
